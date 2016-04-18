@@ -1,0 +1,34 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": ".NET Client for Docker Remote API",
+  "authors": [ "" ],
+  "tags": [ "" ],
+  "projectUrl": "https://github.com/ahmetalpbalkan/Docker.DotNet",
+  "licenseUrl": "https://github.com/ahmetalpbalkan/Docker.DotNet/blob/master/LICENSE",
+  "dependencies": {
+    "Newtonsoft.Json": "8.0.3",
+    "System.Net.Http": "4.0.1-beta-23516"
+  },
+  "frameworks": {
+    "net451": { },
+    "net452": { },
+    "dnxcore50": {
+      "dependencies": {
+        "Microsoft.CSharp": "4.0.1-beta-23516",
+        "System.Collections": "4.0.11-beta-23516",
+        "System.Linq": "4.0.1-beta-23516",
+        "System.Runtime": "4.0.21-beta-23516",
+        "System.Threading": "4.0.11-beta-23516"
+      }
+    },
+    "dotnet5.4": {
+      "dependencies": {
+        "Microsoft.CSharp": "4.0.1-beta-23516",
+        "System.Collections": "4.0.11-beta-23516",
+        "System.Linq": "4.0.1-beta-23516",
+        "System.Runtime": "4.0.21-beta-23516",
+        "System.Threading": "4.0.11-beta-23516"
+      }
+    }
+  }
+}
